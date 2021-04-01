@@ -4,13 +4,15 @@ html {
 
 /* Vars */
 :root {
+  --color-body: #eceff8;
   --color-primary: dodgerblue;
 }
+
 /* Typography */
 .form__title,
 .form__label,
 .form__input {
-  color: white;
+  color: var(--color-body);
 }
 
 /* Background and Container */
@@ -58,8 +60,14 @@ html {
   font-size: 1.3rem;
   font-weight: 500;
 }
+
 .form__input {
   font-size: 1.1rem;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 200px 200px 100px #afbbe3 inset;
+  box-shadow: 200px 200px 100px #afbbe3 inset;
 }
 
 .form__input:hover,
