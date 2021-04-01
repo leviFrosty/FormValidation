@@ -25,6 +25,8 @@ body {
 .background {
   background: #2f3136;
   overflow: hidden;
+  overflow-x: hidden;
+  width: auto;
 }
 
 .container {
@@ -111,7 +113,7 @@ input:-webkit-autofill {
   }
   .form__title {
     font-size: 3rem;
-    margin-bottom: 3.5rem;
+    margin: 2.5rem;
   }
 }
 
@@ -132,7 +134,7 @@ input:-webkit-autofill {
   }
   .form__title {
     font-size: 4rem;
-    margin-bottom: 3.75rem;
+    margin: 3rem;
   }
 }
 
